@@ -13,14 +13,9 @@
         //    console.log(index);
         //} 
 
-        let clickMeButton = document.getElementById("clickMeButton");
-
-        clickMeButton.addEventListener("click", ()=>
-        {
+        $("#clickMeButton").on("click", function(){
             console.log("Click Me Button was clicked!");
         });
-
-
     }
     // event listener
     window.addEventListener("load", Start);

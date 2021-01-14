@@ -14,14 +14,11 @@
         //} 
 
         let clickMeButton = document.getElementById("clickMeButton");
-
         clickMeButton.addEventListener("click", ()=>
         {
             console.log("Click Me Button was clicked!");
         });
 
-
-    }
     // event listener
     window.addEventListener("load", Start);
 }
